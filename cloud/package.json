@@ -4,7 +4,7 @@
   "dependencies": {
     "fh-webapp": "*",
     "fh-api": "*",
-    "express": "3.3.4"
+    "express": "4.15.5"
   },
   "devDependencies": {
     "proxyquire": "0.4.1",
