@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - fh-api > fh-webapp > request > hawk:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:hawk:20160119'
+        path: fh-api > fh-webapp > request > hawk
+  'npm:http-signature:20150122':
+    - fh-api > fh-webapp > request > http-signature:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:http-signature:20150122'
+        path: fh-api > fh-webapp > request > http-signature
+  'npm:mime:20170907':
+    - fh-api > request > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-api > request > mime
+    - fh-api > fh-webapp > request > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-api > fh-webapp > request > mime
+    - fh-api > request > form-data > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-api > request > form-data > mime
+    - fh-webapp > fh-api > request > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-webapp > fh-api > request > mime
+    - fh-api > fh-webapp > request > form-data > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-api > fh-webapp > request > form-data > mime
+    - fh-webapp > fh-api > request > form-data > mime:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:mime:20170907'
+        path: fh-webapp > fh-api > request > form-data > mime
+  'npm:qs:20140806-1':
+    - fh-api > fh-webapp > request > qs:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:qs:20140806-1'
+        path: fh-api > fh-webapp > request > qs
+  'npm:request:20160119':
+    - fh-api > fh-webapp > request:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:request:20160119'
+        path: fh-api > fh-webapp > request
+    - fh-api > request:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:request:20160119'
+        path: fh-api > request
+    - fh-webapp > fh-api > request:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:request:20160119'
+        path: fh-webapp > fh-api > request
+    - fh-api > winston > request:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:request:20160119'
+        path: fh-api > winston > request
+    - fh-webapp > fh-api > winston > request:
+        patched: '2024-09-10T15:48:35.680Z'
+        id: 'npm:request:20160119'
+        path: fh-webapp > fh-api > winston > request
